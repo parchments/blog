@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>git-introduction | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="搭建博客1、下载安装node.jshttps://nodejs.org/en/ 2、设置淘宝镜像（下载速度快）npm install -g cnpm –registry=https://registry.npm.taobao.org 检查是否设置成功 cnpm -v，出现版本号则成功  3、搭建博客的平台网址：https://hexo.io/ 新建文件夹，在里面打开git bash here 按照">
+<meta property="og:type" content="article">
+<meta property="og:title" content="git-introduction">
+<meta property="og:url" content="http://yoursite.com/2018/06/23/hexo搭建博客/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="搭建博客1、下载安装node.jshttps://nodejs.org/en/ 2、设置淘宝镜像（下载速度快）npm install -g cnpm –registry=https://registry.npm.taobao.org 检查是否设置成功 cnpm -v，出现版本号则成功  3、搭建博客的平台网址：https://hexo.io/ 新建文件夹，在里面打开git bash here 按照">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/1d74b122e5d67beb892ee10d4350ffcecb6.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/864207b61d01ddd1ad05a5ec4423ffab1ae.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/9e2db4577eb413123d2147049dc1aed0976.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/e46afb69572bb15465c18018ae448820e37.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/e4727c42a5f0ceedf7a500d63aaa613c17b.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/60657f39addcf4c8bf287e64e043db5e7ad.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/90e2745ef02030ea60ce8277a049bde6c50.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/01149aea5192be81a75dbff85119bd0ab07.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/a1815f790411975661250a83d2c6dc9885d.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/9678287ed2924aa39e3f922e5bff6103093.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/204335cd70b42d351bfce77a91c9bff4125.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/b5d0f1e56607f452a368f2b50b547e9d4ae.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/f8a84be2ed30de6a102cb03b0aa0751adbd.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/ae1c8a271b9ed420be68ff59d789040d3a1.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/9989ff0aa82657e1ee4d5b082455687b0b5.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/a837c725eeda9ed1579d56c014334617341.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/3ccf594a7be75c3be5a9ddc92730268e776.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/c2ed4bc6c6a0b7838feb8108b7e6cbb7da4.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/3d1ea2921d8311150116a616164c338b69b.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/9daa2aea0b61f3c23b7e814dd48ab3512b8.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/8a35f462f036f719618847bdd4e67062fd8.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/7f0aca43de44d7062fa2c562032817ebe42.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/62199c6b669a6fab8f7eea4bbd7f4bf4681.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/12caec84930f129fbd0128025c71a03dcad.jpg">
+<meta property="og:image" content="https://oscimg.oschina.net/oscnet/089c8e607a3a771858f2b4f5edb44918424.jpg">
+<meta property="og:updated_time" content="2018-06-23T07:04:34.170Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="git-introduction">
+<meta name="twitter:description" content="搭建博客1、下载安装node.jshttps://nodejs.org/en/ 2、设置淘宝镜像（下载速度快）npm install -g cnpm –registry=https://registry.npm.taobao.org 检查是否设置成功 cnpm -v，出现版本号则成功  3、搭建博客的平台网址：https://hexo.io/ 新建文件夹，在里面打开git bash here 按照">
+<meta name="twitter:image" content="https://oscimg.oschina.net/oscnet/1d74b122e5d67beb892ee10d4350ffcecb6.jpg">
+  
+    <link rel="alternate" href="/blog/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/blog/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/blog/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/blog/">Home</a>
+        
+          <a class="main-nav-link" href="/blog/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/blog/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-hexo搭建博客" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/blog/2018/06/23/hexo搭建博客/" class="article-date">
+  <time datetime="2018-06-23T06:59:36.000Z" itemprop="datePublished">2018-06-23</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      git-introduction
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a><strong>搭建博客</strong></h1><h2 id="1、下载安装node-js"><a href="#1、下载安装node-js" class="headerlink" title="1、下载安装node.js"></a><strong>1、下载安装node.js</strong></h2><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a></p>
+<h2 id="2、设置淘宝镜像（下载速度快）"><a href="#2、设置淘宝镜像（下载速度快）" class="headerlink" title="2、设置淘宝镜像（下载速度快）"></a><strong>2、设置淘宝镜像（下载速度快）</strong></h2><p>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p>
+<p>检查是否设置成功 cnpm -v，出现版本号则成功</p>
+<p><img src="https://oscimg.oschina.net/oscnet/1d74b122e5d67beb892ee10d4350ffcecb6.jpg" alt=""></p>
+<h2 id="3、搭建博客的平台"><a href="#3、搭建博客的平台" class="headerlink" title="3、搭建博客的平台"></a><strong>3、搭建博客的平台</strong></h2><p>网址：<a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a></p>
+<p>新建文件夹，在里面打开git bash here</p>
+<p>按照顺序执行下面指令（如果安装了cnpm就用cnpm）</p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><img src="https://oscimg.oschina.net/oscnet/864207b61d01ddd1ad05a5ec4423ffab1ae.jpg" alt=""></h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://oscimg.oschina.net/oscnet/9e2db4577eb413123d2147049dc1aed0976.jpg" alt=""></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://oscimg.oschina.net/oscnet/e46afb69572bb15465c18018ae448820e37.jpg" alt=""></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://oscimg.oschina.net/oscnet/e4727c42a5f0ceedf7a500d63aaa613c17b.jpg" alt=""></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;右键打开链接</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://oscimg.oschina.net/oscnet/60657f39addcf4c8bf287e64e043db5e7ad.jpg" alt=""></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 按ctrl+c进行下一步</p>
+<p>&nbsp;</p>
+<h2 id="4、配置git服务器"><a href="#4、配置git服务器" class="headerlink" title="4、配置git服务器"></a><strong>4、配置git服务器</strong></h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 打开<a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">https://hexo.io/docs/deployment.html</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://oscimg.oschina.net/oscnet/90e2745ef02030ea60ce8277a049bde6c50.jpg" alt=""></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://oscimg.oschina.net/oscnet/01149aea5192be81a75dbff85119bd0ab07.jpg" alt=""></p>
+<p>&nbsp;</p>
+<p>复制这段代码到文件_config.yml (git入门文件夹)</p>
+<p><img src="https://oscimg.oschina.net/oscnet/a1815f790411975661250a83d2c6dc9885d.jpg" alt=""></p>
+<p>&nbsp;</p>
+<p><img src="https://oscimg.oschina.net/oscnet/9678287ed2924aa39e3f922e5bff6103093.jpg" alt=""></p>
+<p>其中url为git的url，但是要先新建git文件目录</p>
+<p>&nbsp;</p>
+<p><img src="https://oscimg.oschina.net/oscnet/204335cd70b42d351bfce77a91c9bff4125.jpg" alt=""></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;然后修改两个地方</p>
+<p><img src="https://oscimg.oschina.net/oscnet/b5d0f1e56607f452a368f2b50b547e9d4ae.jpg" alt=""></p>
+<p><img src="https://oscimg.oschina.net/oscnet/f8a84be2ed30de6a102cb03b0aa0751adbd.jpg" alt=""></p>
+<p>然后生产开发： hexo g</p>
+<p><img src="https://oscimg.oschina.net/oscnet/ae1c8a271b9ed420be68ff59d789040d3a1.jpg" alt=""></p>
+<p><img src="https://oscimg.oschina.net/oscnet/9989ff0aa82657e1ee4d5b082455687b0b5.jpg" alt=""></p>
+<p>如何通过git访问呢</p>
+<p><img src="https://oscimg.oschina.net/oscnet/a837c725eeda9ed1579d56c014334617341.jpg" alt=""></p>
+<p><img src="https://oscimg.oschina.net/oscnet/3ccf594a7be75c3be5a9ddc92730268e776.jpg" alt=""></p>
+<p>保存后回到原处</p>
+<p><img src="https://oscimg.oschina.net/oscnet/c2ed4bc6c6a0b7838feb8108b7e6cbb7da4.jpg" alt=""></p>
+<p><img src="https://oscimg.oschina.net/oscnet/3d1ea2921d8311150116a616164c338b69b.jpg" alt=""></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;就已经成功挂载到github服务器上了</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;接着怎么在里面写文档呢</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;想创建自己的文件： hexo new post index.md</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://oscimg.oschina.net/oscnet/9daa2aea0b61f3c23b7e814dd48ab3512b8.jpg" alt=""></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://oscimg.oschina.net/oscnet/8a35f462f036f719618847bdd4e67062fd8.jpg" alt=""></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 这里打开index-md.md文件，可以在线把html转成md文档。也可以使用开源中国的工具</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://oscimg.oschina.net/oscnet/7f0aca43de44d7062fa2c562032817ebe42.jpg" alt=""></p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;转义完之后复制到index-md.md文件保存</p>
+<p><img src="https://oscimg.oschina.net/oscnet/62199c6b669a6fab8f7eea4bbd7f4bf4681.jpg" alt=""></p>
+<h2 id="nbsp"><a href="#nbsp" class="headerlink" title="&nbsp;"></a>&nbsp;</h2><h2 id="5、提交到github上"><a href="#5、提交到github上" class="headerlink" title="5、提交到github上"></a><strong>5、提交到github上</strong></h2><p><img src="https://oscimg.oschina.net/oscnet/12caec84930f129fbd0128025c71a03dcad.jpg" alt=""></p>
+<p><img src="https://oscimg.oschina.net/oscnet/089c8e607a3a771858f2b4f5edb44918424.jpg" alt=""></p>
+<p>刷新hexo地址就可以了</p>
+<p>&nbsp;</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/06/23/hexo搭建博客/" data-id="cjir3j5o60001tsrg1uc8crm5" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/blog/2018/06/23/git入门/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          git-introduction
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2018/06/">June 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/blog/2018/06/23/git入门/">git-introduction</a>
+          </li>
+        
+          <li>
+            <a href="/blog/2018/06/23/hexo搭建博客/">git-introduction</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/blog/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css">
+  <script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
